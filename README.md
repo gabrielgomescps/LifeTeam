@@ -48,12 +48,11 @@ A Vercel serve a raiz do repositório diretamente.
 Alguns dados são placeholders e devem ser confirmados com a academia antes de
 divulgar o site:
 
-- [x] **Fotos reais** — todos os slots de imagem foram preenchidos com fotos
-      reais da academia (extraídas do Instagram). As de musculação, funcional,
-      jump e localização estão em boa resolução; as de **muay thai, jiu-jitsu,
-      pilates e mobilidade** vieram das miniaturas do grid do Instagram (150px)
-      e ficam um pouco menos nítidas — quando houver versões em alta resolução,
-      basta substituir mantendo os mesmos nomes de arquivo em `assets/`.
+- [x] **Imagens** — todos os slots usam o sistema visual próprio **"Cinética
+      Noturna"** (ver `design/PHILOSOPHY.md`): diagramas de força vetoriais em
+      preto/amarelo da marca, gerados por `design/cinetica.js` e renderizados
+      em alta resolução. Para trocar por fotos reais no futuro, basta
+      substituir os arquivos em `assets/` mantendo os mesmos nomes.
 - [ ] **Preços dos planos** (R$ 129,90 / 109,90 / 89,90) — confirmar valores.
 - [ ] **Contadores** ("12+ anos", "350+ alunos") — confirmar números reais.
 - [ ] **Horários de Jump e Funcional (Ter/Qui)** — cards marcados com "Confirmar
