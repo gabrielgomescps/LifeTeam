@@ -48,9 +48,12 @@ A Vercel serve a raiz do repositório diretamente.
 Alguns dados são placeholders e devem ser confirmados com a academia antes de
 divulgar o site:
 
-- [ ] **Fotos reais** — as imagens em `assets/` (heroes, modalidades, estrutura,
-      blog) são fundos ilustrativos "IMAGEM DE EXEMPLO". Substituir por fotos
-      reais da academia mantendo os mesmos nomes de arquivo.
+- [x] **Fotos reais** — todos os slots de imagem foram preenchidos com fotos
+      reais da academia (extraídas do Instagram). As de musculação, funcional,
+      jump e localização estão em boa resolução; as de **muay thai, jiu-jitsu,
+      pilates e mobilidade** vieram das miniaturas do grid do Instagram (150px)
+      e ficam um pouco menos nítidas — quando houver versões em alta resolução,
+      basta substituir mantendo os mesmos nomes de arquivo em `assets/`.
 - [ ] **Preços dos planos** (R$ 129,90 / 109,90 / 89,90) — confirmar valores.
 - [ ] **Contadores** ("12+ anos", "350+ alunos") — confirmar números reais.
 - [ ] **Horários de Jump e Funcional (Ter/Qui)** — cards marcados com "Confirmar
