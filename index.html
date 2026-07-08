@@ -74,7 +74,7 @@ img{max-width:100%}
 .hbar{position:absolute;bottom:0;left:0;height:4px;background:var(--lt-yellow);z-index:6;animation:hbar var(--hero-dur) linear forwards}
 @keyframes hbar{from{width:0}to{width:100%}}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.map{border-radius:16px;min-height:340px;aspect-ratio:4/3;overflow:hidden}
+.map{border-radius:16px;width:100%;max-width:100%;aspect-ratio:4/3;overflow:hidden}
 .map img{border-radius:16px}
 .mappin{width:52px;height:52px;border-radius:999px;background:var(--lt-yellow);color:#000;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.35)}
 .hrow{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--lt-gray-300);font-size:15px}
@@ -159,7 +159,7 @@ img{max-width:100%}
 .fx{display:flex}.ac{align-items:center}.jb{justify-content:space-between}.jc{justify-content:center}.col{display:flex;flex-direction:column}.wrap{flex-wrap:wrap}.tc{text-align:center}.m0{margin:0}.mt8{margin-top:8px}.mt12{margin-top:12px}.mt16{margin-top:16px}.mb16{margin-bottom:16px}.w100{width:100%}
 .gap8{gap:8px}.gap10{gap:10px}.gap12{gap:12px}.gap16{gap:16px}.gap24{gap:24px}
 @media(max-width:1024px){.nl{display:none}.hcta{display:none}.burger{display:flex}.two{grid-template-columns:1fr}.ggrid{grid-template-columns:repeat(2,1fr)}.mcards{grid-template-columns:1fr}.scards{grid-template-columns:repeat(2,1fr)}.bgrid{grid-template-columns:repeat(2,1fr)}.fgrid{grid-template-columns:1fr 1fr}.cnts{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.ggrid{grid-template-columns:1fr}.plans{grid-template-columns:1fr}.plan.hot{order:-1}.tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}.scards{grid-template-columns:1fr}.bgrid{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr}.cnts{grid-template-columns:1fr;gap:36px}.arr{display:none}.icards{grid-template-columns:1fr}}
+@media(max-width:640px){.ggrid{grid-template-columns:1fr}.plans{grid-template-columns:1fr}.plan.hot{order:-1}.tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px}.scards{grid-template-columns:1fr}.bgrid{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr}.cnts{grid-template-columns:1fr;gap:36px}.arr{display:none}.icards{grid-template-columns:1fr}.map{aspect-ratio:1/1}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv{opacity:1;transform:none}}
 </style>
 </head>
