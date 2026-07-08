@@ -140,6 +140,9 @@
   if (burger) burger.addEventListener('click', openMenu);
   if (scrim) scrim.addEventListener('click', closeMenu);
   if (drwClose) drwClose.addEventListener('click', closeMenu);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && drw && drw.classList.contains('on')) closeMenu();
+  });
   if (drw) [].slice.call(drw.querySelectorAll('a[href^="#"]')).forEach(function (a) {
     a.addEventListener('click', closeMenu);
   });
